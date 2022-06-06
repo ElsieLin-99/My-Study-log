@@ -1,5 +1,5 @@
 *My code example here is just a reference and may not be the most efficient and concise.*  
-# Basic Training to Know MySQL
+# Study Notes for MySQL
 ## Date
 #197 Rising Temperature (Easy)  
 #1251 Average Selling Price (Easy)  
@@ -97,7 +97,7 @@ Sometimes if the result is null, we need to return 0 or vice versa. These funtio
 1. sum(case when condition then 1 else 0 end): count the number of each condition when there're too many conditions  
 2. select case whhen condition then result end as new_column_name: to alter table structure  
 
-# Typical Problems
+# Some Typical Problems
 ## Consecutive Problems
 #180 Consecutive Numbers (Medium)  
 #1454 Active Users (Medium)  
