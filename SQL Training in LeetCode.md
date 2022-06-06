@@ -16,14 +16,14 @@ Sometimes using DATEDIFF(current_date, compared_date) < certain_days to judge wh
 #1571 Warehouse Manager (Easy)  
 
 ### Partition By (Window Funtion)
-MySQL official website(https://dev.mysql.com/doc/refman/8.0/en/window-functions-usage.html)  
+MySQL official website[https://dev.mysql.com/doc/refman/8.0/en/window-functions-usage.html]  
 *"A window function performs an aggregate-like operation on a set of query rows. However, whereas an aggregate operation groups query rows into a single result row, a window function produces a result for each query row:*  
 *The row for which function evaluation occurs is called the **current row**.*  
 *The query rows related to the current row over which function evaluation occurs **comprise the window for the current row**."*  
   
-'''
+```
 Window_function ( expression ) Over ( partition by expr [order_clause] [frame_clause] )
-'''
+```
   
 expr can be column names or built-in functions in MySQL.  
   
@@ -65,19 +65,19 @@ Output should be:
 | M      | 2020-01-07 | 36    |  
 +--------+------------+-------+  
 If I use *group by*: I was calculating the total score for each gender for each day.
-'''
+```
 select gender, day, sum(score_points) as total
 from Scores
 group by gender, day
 order by gender asc, day asc;
-'''
+```
 ![image](https://user-images.githubusercontent.com/95600628/172246818-ccd49e00-d96f-41af-979c-8759e381ecf1.png)
 
 The correct one should use *partiion by* to calculate the accumulated total score for each gender on each day.
-'''
+```
 select gender, day, sum(score_points) over (partition by gender order by gender, day) as total
 from Scores;
-'''
+```
 
 ### IFNULL(), ISNULL(), NULLIF(), IF()
 #1173 Immediate Food Delivery I (Easy)  
