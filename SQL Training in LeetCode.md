@@ -16,7 +16,7 @@ Sometimes using DATEDIFF(current_date, compared_date) < certain_days to judge wh
 #1571 Warehouse Manager (Easy)  
 
 ### Partition By (Window Funtion)
-MySQL official website[https://dev.mysql.com/doc/refman/8.0/en/window-functions-usage.html]  
+[MySQL official website about Window Function](https://dev.mysql.com/doc/refman/8.0/en/window-functions-usage.html)  
 *"A window function performs an aggregate-like operation on a set of query rows. However, whereas an aggregate operation groups query rows into a single result row, a window function produces a result for each query row:*  
 *The row for which function evaluation occurs is called the **current row**.*  
 *The query rows related to the current row over which function evaluation occurs **comprise the window for the current row**."*  
