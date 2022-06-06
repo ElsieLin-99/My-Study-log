@@ -10,17 +10,22 @@
 #1571 Warehouse Manager (Easy)
 
 ### Partition
-#1699 Number of Calls Between Two Persons (Medium)
-#1454 Active Users (Medium)
-#178 Rank Score (Medium)
-#534 Game Play Analysis III (Medium)
+#1699 Number of Calls Between Two Persons (Medium)  
+#1454 Active Users (Medium)  
+#178 Rank Score (Medium)  
+#534 Game Play Analysis III (Medium)  
+#1308 Running Total for Different Genders (Medium)  
 
 ### IFNULL(), ISNULL(), NULLIF(), IF()
 #1173 Immediate Food Delivery I (Easy)
 #1699 Number of Calls Between Two Persons (Medium)
+#1193 Monthly Transactions I (Medium)
 
 ### IN, NOT IN - The set problem
 #607 Sales Person (Easy)
+
+### CASE
+#1211 Queries Quality and Percentage (Easy)
 
 # Typical Problems
 ## Consecutive Problems
