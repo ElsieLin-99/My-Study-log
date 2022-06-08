@@ -94,6 +94,10 @@ Sometimes if the result is null, we need to return 0 or vice versa. These funtio
 
 ### IN, NOT IN - The set problem
 #607 Sales Person (Easy)  
+#1398 Customers Who Bought Products A and B but Not C (Medium）  
+
+**Tips:**  
+1. Use [GROUP_CONCAT](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_group-concat) for #1398.
 
 ### CASE
 #1211 Queries Quality and Percentage (Easy)  
