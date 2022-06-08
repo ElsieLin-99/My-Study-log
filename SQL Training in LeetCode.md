@@ -111,3 +111,8 @@ Sometimes if the result is null, we need to return 0 or vice versa. These funtio
 ## Get Nth Highest
 #1076 Project Employees II (Easy)  
 #1077 Project Employees III (Medium)  
+
+## Get the top n data
+#619 Biggest Single Number (Easy)  
+
+
