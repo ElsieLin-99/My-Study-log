@@ -23,9 +23,24 @@ Use the DATE_FORMAT to convert the date to string to compare. For example, in #1
 #574 Winning Candidate (Medium)  
 #614 Second Degree Follower (Medium)  
 #1077 Project Employees III (Medium)  
+#1303 Find the Team Size (Easy)  
 
-
-
+Problem #1303 can be done using group by or partition by.  
+If using group by: Runtime: 312 ms, faster than 43.13% of MySQL online submissions for Find the Team Size.  
+```
+with cte as (select team_id, count(*) as team_size
+from Employee
+group by team_id)
+select employee_id, team_size
+from Employee e join cte on e.team_id = cte.team_id;
+```
+  
+If using partition by: Runtime: 316 ms, faster than 41.02% of MySQL online submissions for Find the Team Size.  
+```
+SELECT employee_id, COUNT(employee_id) OVER(PARTITION BY team_id) team_size
+FROM Employee;
+```
+  
 ### Partition By (Window Funtion)
 [MySQL official website about Window Function](https://dev.mysql.com/doc/refman/8.0/en/window-functions-usage.html)  
 *"A window function performs an aggregate-like operation on a set of query rows. However, whereas an aggregate operation groups query rows into a single result row, a window function produces a result for each query row:*  
@@ -45,6 +60,8 @@ expr can be column names or built-in functions in MySQL.
 #178 Rank Score (Medium)  
 #534 Game Play Analysis III (Medium)  
 #1308 Running Total for Different Genders (Medium)  
+#1303 Find the Team Size (Easy)  
+  
   
 For example:
 LeetCode #1308: Write an SQL query to find the total score for each gender on each day.  
