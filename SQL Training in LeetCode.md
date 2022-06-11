@@ -19,6 +19,12 @@ Use the DATE_FORMAT to convert the date to string to compare. For example, in #1
 #1174 Immediate Food Delivery II (Medium)  
 #1251 Average Selling Price (Easy)  
 #1571 Warehouse Manager (Easy)  
+#578 Get Highest Answer Rate Question (Medium)  
+#574 Winning Candidate (Medium)  
+#614 Second Degree Follower (Medium)  
+#1077 Project Employees III (Medium)  
+
+
 
 ### Partition By (Window Funtion)
 [MySQL official website about Window Function](https://dev.mysql.com/doc/refman/8.0/en/window-functions-usage.html)  
@@ -26,6 +32,8 @@ Use the DATE_FORMAT to convert the date to string to compare. For example, in #1
 *The row for which function evaluation occurs is called the **current row**.*  
 *The query rows related to the current row over which function evaluation occurs **comprise the window for the current row**."*  
   
+[Lag()](https://dev.mysql.com/doc/refman/8.0/en/window-function-descriptions.html#function_lag)  
+
 ```
 Window_function ( expression ) Over ( partition by expr [order_clause] [frame_clause] )
 ```
@@ -105,7 +113,11 @@ Sometimes if the result is null, we need to return 0 or vice versa. These funtio
 **Tips:**(Some tricks to use case)  
 1. sum(case when condition then 1 else 0 end): count the number of each condition when there're too many conditions  
 2. select case whhen condition then result end as new_column_name: to alter table structure  
-
+  
+### JOIN
+#1077 Project Employees III (Medium)  
+  
+  
 # Some Typical Problems
 ## Consecutive Problems
 #180 Consecutive Numbers (Medium)  
