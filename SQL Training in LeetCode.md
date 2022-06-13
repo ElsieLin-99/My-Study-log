@@ -137,6 +137,7 @@ Sometimes if the result is null, we need to return 0 or vice versa. These funtio
 #1077 Project Employees III (Medium)  
 #1440 Evaluate Boolean Expression (Medium)  
 #1280 Students and Examinations (Easy)  
+#1501 Countries You Can Safely Invest In (Medium)  
   
   
 # Some Typical Problems
