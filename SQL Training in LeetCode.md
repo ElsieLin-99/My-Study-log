@@ -122,6 +122,7 @@ Sometimes if the result is null, we need to return 0 or vice versa. These funtio
 #607 Sales Person (Easy)  
 #1264 Page Recommendations (Medium)  
 #1398 Customers Who Bought Products A and B but Not C (Medium）  
+#184 Department Highest Salary (Medium)  
 
 **Tips:**  
 1. Use [GROUP_CONCAT](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_group-concat) for #1398.
@@ -138,6 +139,7 @@ Sometimes if the result is null, we need to return 0 or vice versa. These funtio
 #1440 Evaluate Boolean Expression (Medium)  
 #1280 Students and Examinations (Easy)  
 #1501 Countries You Can Safely Invest In (Medium)  
+#184 Department Highest Salary (Medium)  
   
   
 # Some Typical Problems
