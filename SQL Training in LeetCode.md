@@ -113,6 +113,7 @@ from Scores;
 #1173 Immediate Food Delivery I (Easy)  
 #1699 Number of Calls Between Two Persons (Medium)  
 #1193 Monthly Transactions I (Medium)  
+#1280 Students and Examinations (Easy)  
 
 **Tips:**  
 Sometimes if the result is null, we need to return 0 or vice versa. These funtions can be really helpful.  
@@ -135,6 +136,7 @@ Sometimes if the result is null, we need to return 0 or vice versa. These funtio
 ### JOIN
 #1077 Project Employees III (Medium)  
 #1440 Evaluate Boolean Expression (Medium)  
+#1280 Students and Examinations (Easy)  
   
   
 # Some Typical Problems
