@@ -4,7 +4,9 @@
 #197 Rising Temperature (Easy)  
 #1251 Average Selling Price (Easy)  
 #1607 Sellers With No Sales (Easy)  
+#1294 Weather Type in Each Country (Easy)  
   
+
 **Tips:**
 1. Sometimes using "BETWEEN date1 AND date2" will run faster than using "expr <= date1 and expr >= date2"  
 2. [DATEDIFF(expr1,expr2)](https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_datediff)  
@@ -146,10 +148,11 @@ Sometimes if the result is null, we need to return 0 or vice versa. These funtio
   
   
 # Some Typical Problems
-## Consecutive Problems
+## Consecutive Problems / Adjacent Problems
 #180 Consecutive Numbers (Medium)  
 #1454 Active Users (Medium)  
 #601 Human Traffic of Stadium (Hard)  
+#626 Exchange Seats (Medium)  
 
 ## Get Nth Highest
 #1076 Project Employees II (Easy)  
