@@ -24,6 +24,8 @@ Use the DATE_FORMAT to convert the date to string to compare. For example, in #1
 #614 Second Degree Follower (Medium)  
 #1077 Project Employees III (Medium)  
 #1303 Find the Team Size (Easy)  
+#580 Count Student Number in Departments (Medium)  
+  
 
 Problem #1303 can be done using group by or partition by.  
 If using group by: Runtime: 312 ms, faster than 43.13% of MySQL online submissions for Find the Team Size.  
@@ -140,6 +142,7 @@ Sometimes if the result is null, we need to return 0 or vice versa. These funtio
 #1280 Students and Examinations (Easy)  
 #1501 Countries You Can Safely Invest In (Medium)  
 #184 Department Highest Salary (Medium)  
+#580 Count Student Number in Departments (Medium)  
   
   
 # Some Typical Problems
