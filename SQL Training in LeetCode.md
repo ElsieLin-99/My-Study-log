@@ -59,13 +59,19 @@ Window_function ( expression ) Over ( partition by expr [order_clause] [frame_cl
   
 expr can be column names or built-in functions in MySQL.  
   
+Window_function:  
+[dense-rank](https://dev.mysql.com/doc/refman/8.0/en/window-function-descriptions.html#function_dense-rank):  
+#185 Department Top Three **(Unique)** Salaries (Hard)  
+  
+  
 #1699 Number of Calls Between Two Persons (Medium)  
 #1454 Active Users (Medium)  
 #178 Rank Score (Medium)  
 #534 Game Play Analysis III (Medium)  
 #1308 Running Total for Different Genders (Medium)  
 #1303 Find the Team Size (Easy)  
-  
+#185 Department Top Three Salaries (Hard)  
+
   
 For example:
 LeetCode #1308: Write an SQL query to find the total score for each gender on each day.  
