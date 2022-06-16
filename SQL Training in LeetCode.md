@@ -167,4 +167,8 @@ Sometimes if the result is null, we need to return 0 or vice versa. These funtio
 ## Get the top n data
 #619 Biggest Single Number (Easy)  
 
+## Find Median
+#569 Median Employee Salary  
+#571 Find Median Given Frequency of Numbers (Hard)  
+
 
