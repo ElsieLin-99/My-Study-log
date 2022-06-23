@@ -5,6 +5,7 @@
 #1251 Average Selling Price (Easy)  
 #1607 Sellers With No Sales (Easy)  
 #1294 Weather Type in Each Country (Easy)  
+#615 Average Salary: Departments VS Company (Hard)  
   
 
 **Tips:**
@@ -13,7 +14,10 @@
 DATEDIFF() returns expr1 − expr2 expressed as a value in days from one date to the other. expr1 and expr2 are date or date-and-time expressions. Only the date parts of the values are used in the calculation.  
 Sometimes using DATEDIFF(current_date, compared_date) < certain_days to judge whether the date is within certain day range is better than manually calculating date ranges.  
 3. [DATE_FORMAT()](https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_date-format)  
-Use the DATE_FORMAT to convert the date to string to compare. For example, in #1607: DATE_FORMAT(sale_date,'%Y') = '2020'  
+Use the DATE_FORMAT to convert the date to string to compare.  
+For example:  
+#1607: DATE_FORMAT(sale_date,'%Y') = '2020'  
+#615 Average Salary: Departments VS Company (Hard): DATE_FORMAT(pay_date,'%Y-%m') as pay_month  
 
 
 ## Group By VS. Partition
