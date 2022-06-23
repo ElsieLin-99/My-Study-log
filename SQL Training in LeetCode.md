@@ -63,6 +63,8 @@ Window_function:
 [dense-rank](https://dev.mysql.com/doc/refman/8.0/en/window-function-descriptions.html#function_dense-rank):  
 #185 Department Top Three **(Unique)** Salaries (Hard)  
   
+[row-number](https://dev.mysql.com/doc/refman/8.0/en/window-function-descriptions.html#function_row-number):
+#618 Students Report By Geography (Hard)  
   
 #1699 Number of Calls Between Two Persons (Medium)  
 #1454 Active Users (Medium)  
@@ -71,7 +73,7 @@ Window_function:
 #1308 Running Total for Different Genders (Medium)  
 #1303 Find the Team Size (Easy)  
 #185 Department Top Three Salaries (Hard)  
-
+#618 Students Report By Geography (Hard)  
   
 For example:
 LeetCode #1308: Write an SQL query to find the total score for each gender on each day.  
